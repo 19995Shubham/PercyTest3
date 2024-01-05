@@ -1,4 +1,4 @@
 serve: .
 snapshots:
   - name: Home Page
-    url: /index.html
+    url: http://localhost:63342/PercyTest3/index.html

@@ -1,1 +1,13 @@
 https://www.browserstack.com/docs/percy/get-started/first-percy-build
+
+Run a Local Development Server:
+
+If your HTML file is not served by a local development server, you need to start one. This can be done using various tools or libraries. For example, you can use http-server or live-server if you have Node.js installed. Install it using:
+bash
+Copy code
+npm install -g http-server
+Navigate to the folder containing your HTML file and run the server:
+bash
+Copy code
+http-server
+This will start a server, and you should see output indicating the server is running, along with the accessible URL (e.g., http://127.0.0.1:8080).

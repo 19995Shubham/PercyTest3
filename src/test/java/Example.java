@@ -19,6 +19,6 @@ public class Example {
         driver.manage().window().maximize();
         driver.get("http://127.0.0.1:8080");
         percy = new Percy(driver);
-        percy.snapshot("Java example");
+        percy.snapshot("first page");
     }
 }
